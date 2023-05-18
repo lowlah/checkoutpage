@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout page</title>
+    <link href="main.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <img src="coffee_masters_logo.png" alt="logo" class="coffee-logo">
+        <h1>Coffee Masters</h1>
+    </header>
+
+    <main>
+        <form>
+            <section class="top-sec">
+                <div class="items">
+                    <h4 class="main-head">ITEMS</h4>
+                    <ul class="item-list">
+                        <li class="list-name">
+                            1x <span class="first">Cappucino</span><span class="second">$6.00</span>
+                            <ul class="item-sub"><li class="item-option">Light Foam</li></ul>
+                        </li>
+                        <li class="list-name">
+                            1x <span class="first">Cappucino</span><span class="second">$7.90</span>
+                            <ul class="item-sub">
+                                <li class="item-option">Almond Milk</li>
+                                <li class="item-option">Double Espresso Shot</li>
+                            </ul>
+                        </li>
+                        <li class="list-name">1x <span class="first">Croissant</span><span class="second">$5.37</span>
+                            <ul class="item-sub"><li class="item-option">Butter</li></ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="name">
+                    <div class="name-bx">
+                        <h4 class="main-head">NAME</h4>
+                        <div class="form-input">
+                            <label for="name" class="label-name">Name for order</label>
+                            <input type="text" id="name" name="name" class="input-name">
+                        </div>
+                    </div>
+                    <div class="payment-bx">
+                        <h4 class="main-head">PAYMENT</h4>
+                        <div class="form-input">
+                            <label for="payment" class="label-name">Card number</label>
+                            <input type="text" id="payment" name="payment" class="input-name">
+                        </div>
+                        <div class="form-input">
+                            <label class="label-name" for="ccv">CCV number</label>
+                            <input type="number" class="input-name short-input" id="ccv" />
+                          </div>
+                    </div>     
+                </div>
+            </section>
+            <section class="total">
+                <div class="total-amt">
+
+                </div>
+                <button class="checkout">Place order</button>
+
+            </section>
+
+            
+
+        </form>
+    </main>
+    
+</body>
+</html>
